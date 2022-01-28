@@ -1,0 +1,65 @@
+body{
+
+   padding: 0;
+   margin: 0;
+   background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+
+   
+  
+}
+nav{
+  
+   background-image: url("/media/code.jpg");
+   background-attachment: fixed;
+  
+}
+
+div{
+   display:flex;
+   
+}
+
+.hover{
+   border:2px solid #592E83;
+   border-radius:20px;
+}
+
+.hover:hover{
+   width: 400px;
+   transition: 0.5s;
+   border:2px solid #230C33;
+}
+
+
+.hobby:hover{
+   width: 200px;
+   transition: 0.5s;
+}
+
+.text{
+   width: 30vw;
+  
+}
+
+.right{
+   /* display: relative;
+   float: right; */
+   display: flex;
+   justify-content: flex-end;
+}
+.left{
+   display: relative;
+   float: left;
+}
+.content{
+   background-color:#ecf0f1;
+   width: 80%;
+   margin: 0 10vw;
+   
+}
+.footer{
+   display: block;
+   background-color: #f53b57;
+   align-items: center;
+
+}
